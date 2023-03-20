@@ -36,4 +36,4 @@ test('test', async ({ page }) => {
   await page.locator('a').filter({ hasText: '2' }).click();
   await page.getByRole('link', { name: 'Sauce Labs Bike Light' }).click();
 });
-
+ 
